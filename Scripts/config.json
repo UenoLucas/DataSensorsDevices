@@ -1,0 +1,16 @@
+{
+    "mqtt":{
+        "address":"localhost",
+        "port":1883,
+        "topic":"sensor/machine1"
+    },
+    "db":{
+        "filepath_db":"DataBase/LocalData.db",
+        "table_name":"DataSensors",
+        "columns":["Id","Machine","Current","Voltage","Temperature","Date"]
+    },
+    "kafka":{
+        "topic":"sensor-machine1",
+        "host_kafka":"localhost:9092"
+    }
+}
